@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 2.3fr 0.3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "div1 div1 div1 div1"
+    "div4 div4 div4 div3"
+    "div2 div2 div2 div2";
+}
+.div1,
+.div2 {
+  grid-area: div1;
+  background-color: #1f3d7a;
+  width: 100;
+  height: 120px;
+}
+.logo {
+  display: flex;
+  align-items: baseline;
+  color: whitesmoke;
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
+header nav ul li a {
+  color: yellow;
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  justify-items: flex-end;
+  margin-left: 400px;
+  box-shadow: 2 10 5px;
+}
+nav li {
+  display: inline;
+  margin: 3rem;
+}
+
+nav :hover {
+  color: orange;
+  text-decoration: none;
+}
+.div2 {
+  grid-area: div2;
+}
+.div4 {
+  display: flex;
+  justify-content: center;
+  grid-area: div4;
+  background-color: #f0f0f5;
+}
+.div3 {
+  grid-area: div3;
+  background-color: #f0f0f5;
+}
+h4 {
+  font-size: 30px;
+}
+.cata ul {
+  display: inline;
+}
+
+.cata :hover {
+  color: orange;
+  text-decoration: none;
+}
+button {
+  border: none;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+  background-color: #1f3d7a;
+}
