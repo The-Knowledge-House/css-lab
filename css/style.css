@@ -29,7 +29,7 @@ a {
 }
 a:hover {
   background-color: var(--zero-color);
-  border-radius: 5px;
+  border-radius: 6.5px;
 }
 
 /* container content */
@@ -81,6 +81,8 @@ header nav ul li a {
   display: inline-block;
   vertical-align: top;
 }
+
+/* post content*/
 h2 {
   font-weight: 600;
   font-size: 40px;
@@ -90,8 +92,6 @@ h2 {
 h2 a {
   color: var(--second-color);
 }
-
-/* post content*/
 .post {
   border-bottom: 1px solid var(--second-color);
   padding-bottom: 40px;
@@ -99,6 +99,7 @@ h2 a {
 }
 .post img {
   margin-bottom: 30px;
+  border-radius: 6.5px;
 }
 .post p {
   font-size: 24px;
@@ -150,6 +151,9 @@ h2 a {
   color: var(--fourth-color);
   font-weight: 600;
 }
+#sidebar img {
+  border-radius: 6.5px;
+}
 
 /* button content */
 #bottom-cta {
@@ -160,7 +164,7 @@ h2 a {
 }
 .button,
 .blue {
-  border-radius: 5px;
+  border-radius: 6.5px;
   font-weight: 800;
   padding: 12px 0;
   width: 280px;
