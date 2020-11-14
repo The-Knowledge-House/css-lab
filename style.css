@@ -136,8 +136,12 @@ padding: 0px;
 	font-weight: 600; 
   } 
   a { 
+	color: gray;
 	text-decoration: none; 
   }  
+  a:hover {
+	background-color: blue;
+}
  
    
  
