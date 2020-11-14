@@ -1,0 +1,81 @@
+general css
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #214259;
+}
+
+h3 {
+  color: #1a3e53;
+}
+
+/* navigation bar */
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  background: #2a4658;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.logo {
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  width: 500px;
+  justify-content: space-evenly;
+}
+
+nav ul a,
+footer ul a {
+  color: #dbcb45;
+  font-weight: 600;
+}
+
+/* main content */
+
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  background: #eceeee;
+  display: flex;
+}
+
+/* footer section */
+
+footer {
+  display: flex;
+  background-color: #2a4658;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+}
+
+.copyright {
+  color: white;
+}
