@@ -1,8 +1,9 @@
 general css
 
-body {
+*, body {
   font-family: "Open Sans";
   margin: 0;
+  height: 100%;
 }
 
 ul {
@@ -26,7 +27,7 @@ header .container {
   background: #2a4658;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
+  padding: 0 10%;
 }
 
 .logo {
@@ -49,12 +50,17 @@ footer ul a {
 
 #main {
   display: flex;
-  flex-direction: row;
+  min-height: 100vh;
 }
 
 .container {
   background: #eceeee;
   display: flex;
+  padding: 0 10%;
+}
+
+#sidebar ul {
+    display: inline;
 }
 
 /* footer section */
@@ -67,15 +73,17 @@ footer {
   padding: 0 5%;
 }
 
-#footer{
-    display: flex;
-    justify-content: space-between;
-}
-
 footer ul {
   display: flex;
 }
 
 .copyright {
   color: white;
+}
+
+#bottom-cta{
+    display: flex;
+    justify-content: center;
+    background-color: #eceeee;
+    padding: 5px 0;;
 }
